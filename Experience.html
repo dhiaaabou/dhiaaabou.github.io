@@ -1,0 +1,159 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+	<title>My Portfolio</title>
+	<meta charset="utf-8">
+	<link href="css.css" rel="stylesheet" type="text/css">
+	<script src="../JQuery/JS/JQuery.js"></script>
+	<script src="java.js"></script>
+	
+</head>
+
+
+
+<body>
+
+<div class="container clearfix">
+ 
+<div class="topnav" id="myTopnav">
+           <a href="index.html" class="active">Home</a>
+           <a href="aboutme.html">About me</a>
+           <a href="Project.html">Projects</a>
+           <a href="Education.html">Education</a>
+           <a href="Experience.html">Experience</a>
+           <a href="contact.html">Contact</a>
+           <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
+	 <div class="logo">
+	<img src="logo.png" alt="logo">
+	</div>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>	
+
+<div class="ReadMore">
+
+	<h1 class="head">Experience History </h1>
+
+<div class="exp">
+
+<table>
+<tr> 
+
+<td> <p>RPA Developer(School Of Automation)-Work Experience in OPW(Office Of Public Works/Dublin-Ireland)
+	
+	  My responsibilities build RPA processing by UiPath Studio for several department in OPW,like:<br><span id="dots1">...</span><span id="more1"><br>
+														
+		1-Email Automation, Daily process to read email, download attached files, and insert to the App.<br><br>
+		2-Adde and removed clients from ROS-OPW system.<br><br>
+		3-Add and remove clients’ accounts from ONE Accounting System.<br><br>
+		4-Copy sheets and data from Multiple files.<br><br>
+		5-Extract data from pdf files and save it in excel file.<br><br>
+		6-Scrape data list and download files from Application.<br><br>
+		
+
+	</span></p>
+		  
+<button onclick="myFunction1()" id="myBtn1">Read more</button></td>
+		
+<td class="exp img"> <img src="UiPath.webp" alt="watch"></td>		
+	
+<script>
+      function myFunction1() {
+      var dots = document.getElementById("dots1");
+      var moreText = document.getElementById("more1");
+      var btnText = document.getElementById("myBtn1");
+
+      if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+ } 
+   else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+  }
+}
+
+          </script>
+    	</tr>
+	</table>
+</div>
+
+
+<table> 
+
+<tr> 
+<td class="ReaMore img"> <img src="Ring.jpg" alt="ring"></td>
+<td> <p>ShowRoom Manager (2007-2018)
+		 AL Jaber Watches & Jewelry Inc 
+	 (Retail Group of Company) Qatar-Doha
+	My Achievement: <span id="dots">...</span><span id="more"><br>
+
+
+    1-Years sale targets for 2010/2011/2014/2916<br> <br>
+
+	2-Best manager and staff for 7 years. <br><br>
+	3-Best year emlpoyee for 2009/2010/2012/2017/.<br><br>
+	4-In January 1, 2009 I was selected to be employee of the year.<br><br>
+	5-In November 22, 2012 I had a certificate in recognition of attaining in-depth knowledge 
+     and expertise to achieve the status “Silver &Gold Level” in Frédérique Constant.<br><br>
+
+	6-In January 11, 2013 I had a certificate as the best achiever of “Geovani Diamond Watches” and I had an appreciation for my effort in achieving the target.<br><br>
+	7-February (2012 to 2018) I was managing all the operations of AL Jaber watches and jeweler’s section in Doha exhibition </span></p><br>
+		  
+<button onclick="myFunction2()" id="myBtn">Read more</button></td>
+		<script>	
+function myFunction2() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+
+      if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+  }   
+	  else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+  }
+}
+     </script>
+	</tr>
+	</table>
+</div>
+
+
+ 
+	
+	
+
+ 
+	
+<footer class="footer"> 
+	
+	<a href="https://www.linkedin.com/in/dhiaa-abou-moghdeb-12b809191/" target="_blank"><img src="linkedin-64.png" alt="face"></a>
+	<a href="https://studio.youtube.com/channel/UCUomNL0Y7huzJiOC1r4n5LA/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"><img src="youtube-5-64.png" alt="yout"></a>
+	<a href="default.asp" target="_blank"><img src="facebook-xl.png" alt="fac"></a><br>
+&#169;Copyright 2022 - by Dhiaa Abou Moghdeb 
+</footer>
+</div>
+
+</body>
+</html>
